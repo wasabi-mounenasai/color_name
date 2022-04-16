@@ -372,13 +372,12 @@ button{
   transition: 1s;
 }
 .toneProficiency{
-  position: absolute;
   font-size: 1.4rem;
   opacity: 0;
   transition: 1s;
-  top: 30%;
+  top: 0%;
   width: 100%;
-  transform: translateY(-100%);
+  transform: translateY(0%);
 }
 .proficiencyBar{
   position: absolute;
