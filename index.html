@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>COLOR NAME</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+</head>
+
+<body>
+  <div class="firstscreen">
+    <p class="title">COLOR NAME</p>
+
+    <div id="toggle-switch">
+      <div class="toggle"><p>3</p></div>
+    </div>
+
+    <div id="titlebtns">
+      <button type="button" class="memoryMode"><div class="btntext">MEMORY<br>MODE</div></button>
+      <button type="button" class="gameStart"><div class="btntext">GAME<br>MODE</div></button>
+    </div>
+  </div>
+
+
+    <div id="titlearea"></div>
+    <div id="main-nav">
+      <div id="qColor"></div><div id="qText"></div>
+      <button class="backTitle" id="return"><div class="invisibleTxt">＜　</div>back<div class="disabletext">title</div></button>
+      <div id="animeArea">
+       <div id="circle"></div><div id="outerCross"><div id="cross"></div></div>
+      </div>
+
+
+      <div id="outerResult">
+        <div id="result">
+          <div id="resultMsg">
+            <p>RESULT</p><p class="score"></p><p class="score2"></p>
+          </div>
+          <div id="resultButtons">
+            <button class="backTitle">BACK<br>TITLE</button>
+            <button class="retry">TRY<br>AGAIN</button>
+          </div>
+          <div class='confetti'></div>
+        </div>
+      </div>
+  </div>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+  <script type="text/javascript" src="memorise.js"></script>
+  <script type="text/javascript" src="confetti.js"></script>
+  <script type="text/javascript" src="colordata.js"></script>
+  <script type="text/javascript" src="log.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script></body>
+</html>
